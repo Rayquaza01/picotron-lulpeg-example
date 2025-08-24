@@ -4,7 +4,7 @@
 local select, tonumber, tostring, type
     = select, tonumber, tostring, type
 
-local s, t, u = require"string", require"table", require"util"
+local s, t, u = string, table, require"util"
 local s_sub, t_concat
     = s.sub, t.concat
 

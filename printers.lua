@@ -5,7 +5,7 @@ return function(Builder, LL)
 local ipairs, pairs, print, tostring, type
     = ipairs, pairs, print, tostring, type
 
-local s, t, u = require"string", require"table", require"util"
+local s, t, u = string, table, require"util"
 local S_tostring = Builder.set.tostring
 
 

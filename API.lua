@@ -8,7 +8,7 @@ local assert, error, ipairs, pairs, pcall, print
     = assert, error, ipairs, pairs, pcall, print
     , require, select, tonumber, tostring, type
 
-local t, u = require"table", require"util"
+local t, u = table, require"util"
 
 --[[DBG]] local debug = debug
 

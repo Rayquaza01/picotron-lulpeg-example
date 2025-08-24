@@ -21,7 +21,7 @@ local getmetatable, ipairs, newproxy, print, setmetatable
     = getmetatable, ipairs, newproxy, print, setmetatable
 
 local t, u, compat
-    = require"table", require"util", require"compat"
+    = table, require"util", require"compat"
 
 --[[DBG]] local debug = debug
 

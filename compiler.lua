@@ -3,7 +3,7 @@ local assert, error, pairs, print, rawset, select, setmetatable, tostring, type
 
 --[[DBG]] local debug, print = debug, print
 
-local s, t, u = require"string", require"table", require"util"
+local s, t, u = string, table, require"util"
 
 
 

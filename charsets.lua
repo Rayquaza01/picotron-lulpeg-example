@@ -27,7 +27,7 @@
 -- See each function for usage.
 
 
-local s, t, u = require"string", require"table", require"util"
+local s, t, u = string, table, require"util"
 
 
 
